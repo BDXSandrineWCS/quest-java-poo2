@@ -9,13 +9,8 @@ public class Hangar{
 		Boat schooner = new Boat ( "Aegean", 2007090);
 		Boat peterson = new Boat ( "Camden", 8098);
 		Boat beaufort = new Boat ( "Herbulot", 403465);
+		
 		ArrayList<Vehicle> vehicles = new ArrayList<>();
-        	/*vehicles.add(new Car( "Renault" , 60000 ));
-        	vehicles.add(new Boat ( "Aegean", 2007090));
-		vehicles.add(new Boat ( "Camden", 8098));
-		vehicles.add(new Car( "BMW" , 150000 ));
-		vehicles.add(new Boat ( "Herbulot", 403465));
-		vehicles.add(new Car( "Suzuki" , 107004 ));*/
 		vehicles.add(clio);
         	vehicles.add(schooner);
 		vehicles.add(peterson);
